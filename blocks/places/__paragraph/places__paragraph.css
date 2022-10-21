@@ -1,0 +1,15 @@
+.places__paragraph {
+    grid-area: text;
+}
+
+@media screen and (max-width: 974px) {
+    .places__paragraph {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__paragraph {
+        width: 100%;
+    }
+}

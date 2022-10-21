@@ -1,0 +1,33 @@
+.places__place {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 460px);
+    grid-gap: 40px;
+    grid-template-areas:
+        "title website"
+        "image text";
+    justify-content: center;
+    margin-left: 148px;
+    margin-right: 148px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__place {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+@media screen and (max-width: 974px) {
+    .places__place {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__place {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
