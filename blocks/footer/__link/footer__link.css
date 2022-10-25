@@ -6,6 +6,11 @@
     line-height: 18px;
     color: #FFFFFF;
     text-decoration: none;
+    grid-gap: 18px;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {

@@ -11,6 +11,7 @@
     max-width: 1184px;
     margin: 0;
     padding: 0;
+    z-index: 1;
 }
 
 .cover__link::after {
@@ -23,6 +24,10 @@
     bottom: 0;
     left: 0;
     z-index: 0;
+}
+
+.cover__link:hover::after {
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 1280px) {
