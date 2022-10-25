@@ -1,5 +1,8 @@
 .places__paragraph {
     grid-area: text;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
 }
 
 @media screen and (max-width: 974px) {
